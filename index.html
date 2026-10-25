@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0B3D38">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <title>ХозМастер — стройка, ремонт, хозтовары в Ишимбае</title>
+  <meta name="description" content="Интернет-магазин ХозМастер, Ишимбай. Экономник покупок — 3 варианта бюджета на любую задачу.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <div class="container"><div id="hero"></div></div>
+
+    <div class="container section" id="econom-widget"></div>
+
+    <div class="container section" id="helper-block"></div>
+
+    <div class="container section">
+      <h2 class="section-title">Популярные категории</h2>
+      <p class="section-sub">8 категорий — от крепежа до газовых котлов</p>
+      <div class="grid-cats" id="cats"></div>
+    </div>
+
+    <div class="container section">
+      <h2 class="section-title">Хиты продаж</h2>
+      <p class="section-sub">Товары с максимальной выгодой по отзывам покупателей</p>
+      <div id="hits"></div>
+    </div>
+
+    <!-- Д-5: Вы смотрели (горизонтальный скролл, пустой блок скрыт) -->
+    <div class="container section" id="viewed-section" data-viewed="scroll" data-limit="6" style="display:none"></div>
+
+    <div class="container section">
+      <h2 class="section-title">Акции</h2>
+      <p class="section-sub">Успей купить выгодно</p>
+      <div id="promos"></div>
+    </div>
+
+    <div class="container section">
+      <h2 class="section-title">Почему стоит покупать у нас</h2>
+      <div id="why"></div>
+    </div>
+
+    <div class="container section">
+      <h2 class="section-title">Бренды, которым доверяют</h2>
+      <div id="brands"></div>
+    </div>
+
+    <div class="container section">
+      <h2 class="section-title">О магазине</h2>
+      <p class="section-sub">«ХозМастер» — Ишимбай, ул. Бульварная, 43</p>
+      <div id="about"></div>
+    </div>
+  </main>
+
+  <footer class="footer" id="site-footer"></footer>
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/econom.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/extras.js"></script>
+  <script src="js/page-home.js"></script>
+</body>
+</html>

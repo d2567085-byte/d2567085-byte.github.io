@@ -1,0 +1,41 @@
+{
+  "name": "ХозМастер — стройка, ремонт, хозтовары",
+  "short_name": "ХозМастер",
+  "description": "Интернет-магазин ХозМастер, Ишимбай. Экономник покупок — 3 варианта бюджета на любую задачу. Покупайте в 1 клик.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F57C00",
+  "theme_color": "#0B3D38",
+  "categories": ["shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
